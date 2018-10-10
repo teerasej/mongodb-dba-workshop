@@ -1,7 +1,7 @@
 
 # Vagrant Environment
 
-1. ดาวน์โหลด zip ไฟล์ 
+1. [ดาวน์โหลด zip ไฟล์](https://www.dropbox.com/s/kkj1kdwxh0chf92/vagrant-env.zip?dl=0)
 2. แตก zip ไฟล์
 3. เปิด terminal หรือ command prompt ไปที่โฟลเดอร์ที่แตก zip file
 4. รันคำสั่ง `vagrant up --provision`
