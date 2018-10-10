@@ -2,7 +2,7 @@
 # Read Operation
 
 
-## find
+## find()
 
 ```js
 .find({ year: 2009 })
@@ -19,6 +19,7 @@
 ```js
 .find({ year: 2009, mpaaRating: "PG-13" })
 ```
+
 
 ### COUNT Operator
 
@@ -80,4 +81,8 @@ it
 ```js
 .find({}, { title: 1, _id: 0 })
 ```
+
+## ดูเพิ่มเติม
+
+- ดูองค์ประกอบของการ Query ต่างๆ [ได้ที่นี่](https://docs.mongodb.com/manual/reference/operator/query/)
 
