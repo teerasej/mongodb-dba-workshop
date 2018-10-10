@@ -12,7 +12,7 @@
 6. กรอกข้อมูล
 
 ```bash
-"year":"2018","title":"Rocky"}`
+{"year":"2018","title":"Rocky"}`
 ```
 
 7. กดปุ่ม **insert**
