@@ -41,3 +41,11 @@ show collections
 ```bash
 db.<collections>.find()
 ```
+
+### แถม 
+
+ลอง query ด้วย `.pretty()` ดู
+
+```bash
+db.<collections>.find().pretty()
+```
