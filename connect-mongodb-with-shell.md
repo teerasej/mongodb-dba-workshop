@@ -29,6 +29,8 @@ mongod --dbpath "C:\data\db"
 C:\Program Files\MongoDB\Server\4.0\bin
 ```
 
+### Daemon เริ่มทำงาน
+
 จะเห็น log แสดงประมาณด้านล่าง
 
 ```bash
