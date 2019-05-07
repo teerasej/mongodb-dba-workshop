@@ -15,7 +15,7 @@
 
 1. [ฝึกเชื่อมต่อ Cluster บน Atlas ด้วย Mongo Shell และใช้คำสั่งพื้นฐาน](mongo-shell-connect-example-cluster)
 2. [รัน MongoDB ด้วย Shell](connect-mongodb-with-shell.md) ([คำอธิบายเพิ่มเติม](mongod-command.md))
-- 
+
 
 เชื่อมต่อไปยัง Cluster 
 

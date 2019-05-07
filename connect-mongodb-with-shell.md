@@ -73,7 +73,7 @@ Server has startup warnings:
 > 
 ```
 
-6. ลองกลับมาดูที่หน้าต่างเดิม ที่เราสั่งรัน mongod ไว้ จะเห็น log แสดงการเชื่อมต่อเข้ามาจาก mongo shell 
+ลองกลับมาดูที่หน้าต่างเดิม ที่เราสั่งรัน mongod ไว้ จะเห็น log แสดงการเชื่อมต่อเข้ามาจาก mongo shell 
 
 ```bash
 2018-10-08T14:01:37.053+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:52690 #1 (1 connection now open)
