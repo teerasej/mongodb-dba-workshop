@@ -2,7 +2,7 @@
 
 ### สำหรับ MacOS
 
-1. เปิดโปรแกรม Terminal 
+1. เปิดโปรแกรม **Terminal** 
 2. รันคำสั่ง `mkdir -p /data/db` เพื่อสร้าง โฟลเดอร์สำหรับเก็บฐานข้อมูล (ในที่นี่อ้างอิงจาก default location ของระบบ)
 3. รันคำสั่งด้านล่าง และกรอกรหัสผ่านของคุณ
 
@@ -23,7 +23,11 @@ mongod --dbpath "C:\data\db"
 ```
 ** ขั้นตอนนี้ต้อง set path ในส่วนของ System Environment ให้เรียบร้อย [ดูวิธีการได้ที่](https://nextflow.in.th/2018/prepare-mongodb-for-database-administrator-dba/)
 
+** ถ้าไม่ได้ตั้งค่า path จะรันคำสั่งด้านบนไม่ได้ ให้ไปรันจากโฟลเดอร์ที่ติดตั้ง MongoDB เช่น 
 
+```
+C:\Program Files\MongoDB\Server\4.0\bin
+```
 
 จะเห็น log แสดงประมาณด้านล่าง
 
