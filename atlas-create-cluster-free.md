@@ -46,12 +46,12 @@ Cluster \> MongoDB Users \> Add new user
 
 ## 5. เชื่อมต่อไปที่ Cluster 
 
-1. จาก Cluster Overview คลิกปุ่ม Connection 
-2. เลือก Connect with Mongo Shell
+1. จาก Cluster Overview คลิกปุ่ม **Connection** 
+2. เลือก **Connect with Mongo Shell**
 3. ในที่นี้้ ถ้าใช้ MongoDB ต่ำกว่า 4.0.2 ให้ดาวน์โหลดและติดตั้ง. Mongo Shell ตามข้อ 1
 4. กดเลือก connection string ตามเวอร์ชั่นของ Mongo Shell (ดูได้จากการรันคำสั่ง `mongo --version`)
 
-นำ connection string มารันใน Cmd หรือ Terminal เช่น
+นำ connection string มารันใน Command Prompt, Powershell, หรือ Terminal เช่น
 
 ```bash
 mongo "mongodb://sandbox1-shard-00-00-wkmdm.mongodb.net:27017,sandbox1-shard-00-01-wkmdm.mongodb.net:27017,sandbox1-shard-00-02-wkmdm.mongodb.net:27017/test?replicaSet=Sandbox1-shard-0" --ssl --authenticationDatabase admin --username m001-student --password <PASSWORD>`
