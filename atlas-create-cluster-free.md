@@ -1,10 +1,13 @@
-    ## สร้าง Atlas Cluster
+
+# สมัคร และทดลองสร้าง Cluster บน Mongo Atlas
+
+## 1. สร้าง Atlas Cluster
 
 - สร้าง Account [https://cloud.mongodb.com/links/registerForAtlas](https://cloud.mongodb.com/links/registerForAtlas)
 
 - ลงชื่อเข้าใช้งาน [https://cloud.mongodb.com/user/login](https://cloud.mongodb.com/user/login)
 
-### 1. กดสร้าง Cluster
+### 2. กดสร้าง Cluster
 
 1. เลือก AWS 
 2. เลือก​ Region ที่มี **Free tier** ในที่นี้เราจะเลือก Singapore
@@ -15,7 +18,7 @@
 
 5. หลังจากสร้าง Cluster เสร็จ ให้ไปที่ Setting และตั้งชื่อ **Project Name** จาก **Project 0** เป็น `M001`
 
-## ตั้งค่า Security ให้ Cluster
+## 3. ตั้งค่า Security ให้ Cluster
 
 1. เลือก Project
 
@@ -29,9 +32,8 @@
 
 **ในที่นี้เราเปิด connect from anywhere ในการอบรมเท่านั้น นะ นะ นะ**
 
-![](#)
 
-## สร้าง User
+## 4. สร้าง User
 
 Cluster \> MongoDB Users \> Add new user
 
@@ -43,7 +45,7 @@ Cluster \> MongoDB Users \> Add new user
 
 - User Privileges: Read and Write to any database
 
-## เชื่อมต่อไปที่ Cluster 
+## 5. เชื่อมต่อไปที่ Cluster 
 
 1. จาก Cluster Overview คลิกปุ่ม Connection 
 
