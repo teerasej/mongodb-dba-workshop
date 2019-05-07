@@ -31,7 +31,7 @@
 
 ![](#)
 
-## สร้าง Us`er `
+## สร้าง User
 
 Cluster \> MongoDB Users \> Add new user
 
