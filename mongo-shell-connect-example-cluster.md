@@ -1,5 +1,5 @@
 
-# เชื่อมต่อ Mongo Shell กับ Cluster ตัวอย่างบน Atlas
+# ฝึกเชื่อมต่อ Cluster บน Atlas ด้วย Mongo Shell และใช้คำสั่งพื้นฐาน
 
 เปิด Terminal หรือ Command Prompt แล้วให้เรารันคำสั่งนี้
 

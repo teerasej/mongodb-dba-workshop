@@ -1,4 +1,4 @@
-## รัน MongDB ครั้งแรก
+# รัน MongoDB ด้วย Shell
 
 ### สำหรับ MacOS
 
