@@ -4,7 +4,7 @@
 ## InsertOne
 
 ### Workshop ผ่าน Compass
-1. Login เข้า Sandbox 
+1. Login เข้า Sandbox ([ดูการตั้งค่าเชื่อมต่อได้ที่นี่](compass-connect-example-cluster.md))
 2. เลือก database `video`
 3. กดปุ่ม (+) เพื่อเพิ่ม collection ตั้งชื่อว่า `movieScratch`
 4. เลือก collection ที่สร้างขึ้นใหม่
@@ -19,7 +19,7 @@
 8. ทดลองกดปุ่มแก้ไขใน collection view
 
 ### Workshop ผ่าน Shell
-1. Login เข้า Sandbox
+1. Login เข้า Sandbox ([ดูการเข้าใช้งานได้ที่นี่](mongo-shell-connect-example-cluster.md))
 2. เลือก database `video`
 3. แสดงชื่อ collections ทั้งหมด ด้วย `movieScratch`
 4. รันคำสั่ง `insertOne({})` เพื่อเพิ่ม document ใน collection

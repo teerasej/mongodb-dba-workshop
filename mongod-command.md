@@ -24,6 +24,20 @@ mkdir first_mongo
 mongod --port 30000 --dbpath first_mongod --fork
 ```
 
+## คำสั่งค้นหา pid ของ process mongod ในกรณีที่ต้องการเคลียร์ทิ้ง
+
+ค้นหา pid ของ MongoD
+
+```bash
+ps -ef | grep mongod
+```
+
+เมื่อทราบ pid แล้วใช้คำสั่ง
+
+```bash
+kill <pid>
+```
+
 ## คำสั่งรันแบบ เก็บ log ไฟล์
 
 ```bash

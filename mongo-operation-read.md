@@ -1,6 +1,8 @@
 
 # Read Operation
 
+1. ให้ใช้ Mongo Compass เชื่อมต่อไปที่ `cluster0-shard-00-00-jxeqq.mongodb.net` ([ดูการตั้งค่าเชื่อมต่อได้ที่นี่](compass-connect-example-cluster.md))
+2. เลือก Database **Video** และ collection **Movie**
 
 ## find()
 

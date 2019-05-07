@@ -14,12 +14,7 @@ db.<collection>.createIndex({ <field>: <direction> })
 
 ### import ข้อมูล (ถ้ายังไม่ได้ทำ)
 
-1. เปิด Command Prompt หรือ Terminal มาที่โฟลเดอร​์ **B-Performance**
-2. รันคำสั่ง 
-
-```bash
-mongoimport --db nfmongop --collection people --file people.json
-```
+[ดูขั้นตอนการ import ข้อมูลได้ที่นี่](mongo-import.md)
 
 ### ทดสอบ Single Field Indexes แบบทั่วไป
 
@@ -80,14 +75,14 @@ winningPlan > inputStage > stage: IXSCAN
 1. รันคำสั่ง 
 
 ```js
-db.people.find({ snn: { $gte: "555-00-0000", $lt: "556-00-0000" }).explain("executionStats")
+db.people.find({ "snn": { $gte: "555-00-0000", $lt: "556-00-0000" }}).explain("executionStats")
 ```
 
 2. สังเกตค่า **executionStats** ว่าค่า **nReturned** เท่ากับ ค่า **totalKeysExamined** เป็นอัตราส่วน 1:1 ถือว่าดีมาก
 3. รันคำสั่งด้านล่างเพื่อหาข้อมูลเป็น set
 
 ```js
-db.people.find({ snn: { $in: ["001-29-9184","177-45-0950","265-67-9973"] }).explain("executionStats")
+db.people.find({ "snn": { $in: ["001-29-9184","177-45-0950","265-67-9973"] }}).explain("executionStats")
 ```
 
 และสังเกตค่า **winningPlan** กับ **executionStats** จะเห็นว่าค่า **totalKeysExaminded** มีจำนวนที่มากกว่า **nReturned** ซึ่งถือว่าพอรับได้ 
