@@ -31,9 +31,16 @@
 ## Indexing 
 
 1. [Single Field Indexes](index-single-field.md)
-2. [Index Compound](index-compound.md)
-3. [Index sorting](index-sorting.md)
+2. [Index Sorting](index-sorting.md)
+3. [Index Compound](index-compound.md)
 
-### Replica Set
+## MongoD Command & Config
 
 1. [Setup Vagrant Image Environment](/vagrant-image-setup.md)
+2. [MongoD Command](mongod-command.md)
+3. [MongoD Configuration Files](/mongod-config-file.md)
+
+## Security & Authentication
+
+ [Security: First Admin account (Localhost exception)](security-localhost-exception.md)
+ [Security: Authentication method](security-authentication-method.md)

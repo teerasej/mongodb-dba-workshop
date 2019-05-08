@@ -1,4 +1,4 @@
-# Configuration Files
+# MongoD Configuration File
 
 - [Command line options](https://docs.mongodb.com/manual/reference/program/mongod/#options)
 - [Config file options](https://docs.mongodb.com/manual/reference/configuration-options)
@@ -58,9 +58,9 @@ vim
 ```
 
 7. เพิ่ม comment `# hello`
-8. กดปุ่ม `esc` และกด `:w` เพื่อบันทึกไฟล์ ชื่อ `mongo.conf`
+8. กดปุ่ม `esc` และกด `:w mongo.conf` เพื่อบันทึกไฟล์ ชื่อ `mongo.conf`
 	- หรือกดปุ่ม `esc` และกด `:x` เพื่อบันทึกไฟล์ และปิด vim
-	- หรือกดปุ่ม `esc` และกด `:w newname` (หรือ `:x newname` เพื่อบันทึกไฟล์แบบ Save As
+	- หรือกดปุ่ม `esc` และกด `:w newname` (หรือ `:x newname` เพื่อบันทึกไฟล์แบบ Save As)
 	- หรือกดปุ่ม `esc` และกด `:q!` เพื่อออกโดยไม่แก้ไขอะไร
 9. ใช้คำสั่ง `ls` เพื่อดูว่ามีไฟล์ชื่อ `mongo.conf`
 10. ใช้คำสั่ง `vim mongo.conf` เพื่อเปิดไฟล์มาแก้ไขอีกครั้ง
@@ -79,9 +79,23 @@ processManagement:
   fork : true
 ```
 
-13. หรือกดปุ่ม `esc` และกด `:x` เพื่อบันทึกไฟล์ และปิด vim
+13. กดปุ่ม `esc` และกด `:x` เพื่อบันทึกไฟล์ และปิด vim
 14. ทดสอบรัน mongo โดยใช้ config ใหม่
 
 ```bash
 mongod -f "mongo.conf"
+```
+
+## คำสั่งค้นหา pid ของ process mongod ในกรณีที่ต้องการเคลียร์ทิ้ง
+
+ค้นหา pid ของ MongoD
+
+```bash
+ps -ef | grep mongod
+```
+
+เมื่อทราบ pid แล้วใช้คำสั่ง
+
+```bash
+kill <pid>
 ```
