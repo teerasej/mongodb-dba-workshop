@@ -62,6 +62,7 @@ vim
 	- หรือกดปุ่ม `esc` และกด `:x` เพื่อบันทึกไฟล์ และปิด vim
 	- หรือกดปุ่ม `esc` และกด `:w newname` (หรือ `:x newname` เพื่อบันทึกไฟล์แบบ Save As)
 	- หรือกดปุ่ม `esc` และกด `:q!` เพื่อออกโดยไม่แก้ไขอะไร
+	- หรือกดปุ่ม `esc` และกด `:w!` เพื่อสั่งบันทึกทับไฟล์เดิม
 9. ใช้คำสั่ง `ls` เพื่อดูว่ามีไฟล์ชื่อ `mongo.conf`
 10. ใช้คำสั่ง `vim mongo.conf` เพื่อเปิดไฟล์มาแก้ไขอีกครั้ง
 11. กด `i` เพื่อเข้าโหมดแก้ไข
@@ -73,8 +74,6 @@ storage:
 systemLog:
   path: "/data/mongo.log"
   destination: "file"
-replication:
-  replSetName: NF100
 processManagement:
   fork : true
 ```
