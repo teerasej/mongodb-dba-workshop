@@ -1,4 +1,4 @@
-# Setting up a shared cluster
+# Setting up a shard cluster
 
 สร้างไฟล์ `csrs_1.conf`
 

@@ -44,5 +44,15 @@
 
 ## Security & Authentication
 
- [Security: First Admin account (Localhost exception)](security-localhost-exception.md)
- [Security: Authentication method](security-authentication-method.md)
+1. [Security: First Admin account (Localhost exception)](security-localhost-exception.md)
+2. [Security: Authentication method](security-authentication-method.md)
+
+## Replica Set 
+
+1. [Setting up a Replica Set](/replica-set-config-file.md)
+2. [# Reconfiguring a Running Replica Set](/replica-set-reconfig.md)
+
+## Sharding
+
+1. [Setting up a shared cluster](shard-config-file.md)
+

@@ -21,7 +21,7 @@ mongo admin --eval 'db.shutdownServer()'
 mkdir first_mongo
 
 // ทดสอบรัน daemon ด้วย **port** และ **dbpath** ใหม่ 
-mongod --port 30000 --dbpath first_mongod --fork
+mongod --port 30000 --dbpath first_mongod
 ```
 
 ## คำสั่งค้นหา pid ของ process mongod ในกรณีที่ต้องการเคลียร์ทิ้ง

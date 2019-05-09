@@ -1,5 +1,6 @@
 # Setting up a Replica Set
 
+
 สร้างไฟล์ `node1.conf`
 
 ```bash
