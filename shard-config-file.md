@@ -162,7 +162,7 @@ net:
   bindIp: 192.168.103.100,localhost
   port: 27001
 security:
-  keyFile: mongodb/pki/m103-keyfile
+  keyFile: mongodb/pki/keyfile
 systemLog:
   destination: file
   path: mongodb/db/node1/mongod.log

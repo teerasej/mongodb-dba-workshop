@@ -8,6 +8,9 @@ storage:
 net:
   bindIp: 192.168.103.100,localhost
   port: 27004
+security:
+  authorization: enabled
+  keyFile: mongodb/pki/keyfile
 systemLog:
   destination: file
   path: mongodb/db/node4/mongod.log
@@ -26,6 +29,9 @@ storage:
 net:
   bindIp: 192.168.103.100,localhost
   port: 28000
+security:
+  authorization: enabled
+  keyFile: mongodb/pki/keyfile
 systemLog:
   destination: file
   path: mongodb/db/arbiter/mongod.log
@@ -36,11 +42,24 @@ replication:
   replSetName: nf-example
 ```
 
+สร้าง directory สำหรับ node4 และ arbiter
+
+```bash
+mkdir -p mongodb/db/node4
+mkdir -p mongodb/db/arbiter
+```
+
 รัน `mongod` สำหรับ `node 4` และ `arbiter`
 
 ```bash
 mongod -f node4.conf
 mongod -f arbiter.conf
+```
+
+ใช้ mongo shell 
+
+```
+mongo --host "nf-example/192.168.103.100:27001" -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 ```
 
 จาก shell ให้เพิ่ม node 4 และ arbiter เข้า replica set
