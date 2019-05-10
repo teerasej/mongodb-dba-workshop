@@ -122,7 +122,7 @@ rs.add("192.168.103.100:26002")
 rs.add("192.168.103.100:26003")
 ```
 
-## สร้าง MongoS Deamon
+## 2. สร้าง MongoS Deamon
 
 สร้างไฟล์ config Mongos (`mongos.conf`)
 
