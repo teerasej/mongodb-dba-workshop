@@ -101,8 +101,8 @@ Creating super user on CSRS:
 ```bash
 use admin
 db.createUser({
-  user: “nfadmin",
-  pwd: “nfpass",
+  user: "nfadmin",
+  pwd: "nfpass",
   roles: [
     {role: "root", db: "admin"}
   ]
@@ -124,7 +124,7 @@ rs.add("192.168.103.100:26003")
 
 ## 2. สร้าง MongoS Deamon
 
-สร้างไฟล์ config Mongos (`mongos.conf`)
+สร้างไฟล์ config สำหรับ MongoS (`vim mongos.conf`)
 
 ```bash
 sharding:
@@ -273,5 +273,5 @@ mongo --port 26000 -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 เพิ่ม Shard เข้า mongoS
 
 ```bash
-sh.addShard(“nf-repl/192.168.103.100:27002")
+sh.addShard("nf-repl/192.168.103.100:27002")
 ```
