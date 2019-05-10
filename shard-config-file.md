@@ -1,5 +1,7 @@
 # Setting up a shard cluster
 
+## 1. สร้าง Replica Set สำหรับทำ Config Server
+
 สร้างไฟล์ `csrs_1.conf`
 
 ```bash
@@ -120,6 +122,8 @@ rs.add("192.168.103.100:26002")
 rs.add("192.168.103.100:26003")
 ```
 
+## สร้าง MongoS Deamon
+
 สร้างไฟล์ config Mongos (`mongos.conf`)
 
 ```bash
@@ -155,6 +159,8 @@ mongo --port 26000 -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 ```bash
 sh.status()
 ```
+
+## 3. อัพเดตให้ Replica Set แรก มาอยู่ระบบ Shard
 
 อัพเดต config ไฟล์ `node1.conf`
 
