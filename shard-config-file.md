@@ -66,6 +66,14 @@ storage:
   dbPath: mongodb/db/csrs3
 ```
 
+สร้าง directory สำหรับ Config server node ทั้ง 3 ตัว
+
+```
+mkdir -p mongodb/db/csrs1
+mkdir -p mongodb/db/csrs2
+mkdir -p mongodb/db/csrs3
+```
+
 เริ่ม server 3 ตัว
 
 ```bash
