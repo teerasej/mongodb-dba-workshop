@@ -184,7 +184,7 @@ systemLog:
 processManagement:
   fork: true
 replication:
-  replSetName: nf-repl
+  replSetName: nf-example
 ```
 
 อัพเดต config ไฟล์ `node2.conf`
@@ -209,7 +209,7 @@ systemLog:
 processManagement:
   fork: true
 replication:
-  replSetName: nf-repl
+  replSetName: nf-example
 ```
 
 อัพเดต config ไฟล์ `node3.conf`
@@ -234,7 +234,7 @@ systemLog:
 processManagement:
   fork: true
 replication:
-  replSetName: nf-repl
+  replSetName: nf-example
 ```
 
 เชื่อมต่อไปที่ node 2 (ใน workshop ก่อน node 2 นี้อาจจะถูกเลือกเป็น primary เราจะเลือก node นี้เพื่อแก้ไขก่อน):
@@ -273,5 +273,5 @@ mongo --port 26000 -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 เพิ่ม Shard เข้า mongoS
 
 ```bash
-sh.addShard("nf-repl/192.168.103.100:27002")
+sh.addShard("nf-example/192.168.103.100:27002")
 ```
