@@ -30,7 +30,7 @@ sharding:
 replication:
   replSetName: nf-csrs
 security:
-  keyFile: mongodb/pki/m103-keyfile
+  keyFile: mongodb/pki/keyfile
 net:
   bindIp: localhost,192.168.103.100
   port: 26002
@@ -52,7 +52,7 @@ sharding:
 replication:
   replSetName: nf-csrs
 security:
-  keyFile: mongodb/pki/m103-keyfile
+  keyFile: mongodb/pki/keyfile
 net:
   bindIp: localhost,192.168.103.100
   port: 26003
