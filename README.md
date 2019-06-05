@@ -39,8 +39,8 @@
 
 ** อย่าลืมว่า MongoDB ออกแบบมาเพื่อให้ประสิทธิภาพในการอ่าน/เขียน Data จากฐานข้อมูลสู่ระดับ Application ทำงานได้เร็วที่สุด กลไก JOIN จึงไม่มีมาตั้งแต่ต้น แต่ $lookup ก็สามารถพิจารณาเอามาใช้งานในทำนองเดียวกันได้ รวมถึงแนวคิดต่างๆ ที่เอามาทดแทน JOIN ได้ครับ
 
-- ($lookup example)[https://stackoverflow.com/a/33511166]
-- (สร้าง JOIN Collection)[https://stackoverflow.com/a/22739813]
+- [$lookup example](https://stackoverflow.com/a/33511166)
+- [สร้าง JOIN Collection](https://stackoverflow.com/a/22739813)
 
 ## Indexing 
 
