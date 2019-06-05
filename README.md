@@ -23,6 +23,7 @@
 ## MongoDB Command
 
 - [เรื่อง Mongo Document](mongod-document.md)
+- [SQL compare to MongoDB](https://docs.mongodb.com/manual/reference/sql-comparison/)
 
 1. [โหลดข้อมูล ด้วยคำสั่ง `mongoimport`](mongo-import.md)
 2. [Insert Operation](mongo-operation-insert.md)
@@ -30,6 +31,14 @@
 4. [Update Operation](mongo-operation-update.md)
 5. [Remove Operation](mongo-operation-remove.md)
 
+### Q&A
+
+- [ค้นหาแบบ case-insensitive](https://stackoverflow.com/questions/1863399/mongodb-is-it-possible-to-make-a-case-insensitive-query)
+
+### วิธีต่างๆ ที่ใช้แทน JOIN 
+
+- ($lookup example)[https://stackoverflow.com/a/33511166]
+- (สร้าง JOIN Collection)[https://stackoverflow.com/a/22739813]
 
 ## Indexing 
 
