@@ -68,7 +68,7 @@ storage:
   dbPath: mongodb/db/csrs3
 ```
 
-สร้าง directory สำหรับ Config server node ทั้ง 3 ตัว
+สร้าง directory สำหรับ Instance ทั้ง 3 ตัว
 
 ```
 mkdir -p mongodb/db/csrs1
@@ -76,7 +76,7 @@ mkdir -p mongodb/db/csrs2
 mkdir -p mongodb/db/csrs3
 ```
 
-เริ่ม server 3 ตัว
+เริ่มการทำงานของ MongoDB 3 instances สำหรับสร้าง Replica set ที่ทำหน้าที่เป็น ​Config Server
 
 ```bash
 mongod -f csrs_1.conf
@@ -274,4 +274,10 @@ mongo --port 26000 -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 
 ```bash
 sh.addShard("nf-example/192.168.103.100:27002")
+```
+
+ตรวจสอบสถานะการทำ Sharding
+
+```bash
+sh.status()
 ```

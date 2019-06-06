@@ -30,7 +30,7 @@ ssl:
 security:
   keyFile: "/data/keyfile"
 processManagement:
-  fork : true
+  fork: true
 ```
 
 
@@ -75,7 +75,7 @@ systemLog:
   path: "/data/mongo.log"
   destination: "file"
 processManagement:
-  fork : true
+  fork: true
 ```
 
 13. กดปุ่ม `esc` และกด `:x` เพื่อบันทึกไฟล์ และปิด vim
