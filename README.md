@@ -64,6 +64,10 @@
 1. [Setting up a Replica Set](/replica-set-config-file.md)
 2. [# Reconfiguring a Running Replica Set](/replica-set-reconfig.md)
 
+### Q&A
+
+- [Connection String แบบต่างๆ](https://docs.mongodb.com/manual/reference/connection-string)
+
 ## Sharding
 
 1. [Setting up a shared cluster](shard-config-file.md)
