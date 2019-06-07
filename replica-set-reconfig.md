@@ -1,5 +1,7 @@
 # Reconfiguring a Running Replica Set
 
+## 1. สร้าง Node 4 และ Arbiter Node เพิ่มเข้าไปใน Replica Set เพื่อสังเกตผล
+
 สร้างไฟล์ config สำหรับ `node4.conf`
 
 ```bash
@@ -62,24 +64,36 @@ mongod -f arbiter.conf
 mongo --host "nf-example/192.168.103.100:27001" -u "nfadmin" -p "nfpass" --authenticationDatabase "admin"
 ```
 
-จาก shell ให้เพิ่ม node 4 และ arbiter เข้า replica set
+จาก shell ให้เพิ่ม node 4 และ arbiter node เข้า replica set
 
 ```bash
 rs.add("192.168.103.100:27004")
 rs.addArb("192.168.103.100:28000")
 ```
 
-เช็คสถานะของ Replica Set
+เช็คสถานะของ Replica Set สังเกตค่าที่เปลี่ยนแปลงไปใน Set
 
 ```bash
 rs.isMaster()
+rs.status()
 ```
 
-ลบ arbiter ออกจาก Replica Set
+## 2. ลดสมาชิกของ Replica Set
+
+ลบ Arbiter node ออกจาก Replica Set
 
 ```bash
 rs.remove("192.168.103.100:28000")
 ```
+
+เช็คสถานะของ Replica Set สังเกตค่าที่เปลี่ยนแปลงไปใน Set
+
+```bash
+rs.isMaster()
+rs.status()
+```
+
+## 3. ทดลองปรับแต่งการทำงานของ Node ที่อยู่ใน Replica Set
 
 ดึงค่า configuration ของ Replica Set มาเก็บไว้ในตัวแปรของ Shell
 
@@ -87,7 +101,9 @@ rs.remove("192.168.103.100:28000")
 cfg = rs.conf()
 ```
 
-แก้ไขค่า config ใหม่ (node 4)
+แก้ไขค่า config ของ Node ใหม่ 
+
+ตาม Workshop คือ node 4 (Replica Set นับ Nodeตัวแรกเป็น cfg.members[0]) แต่จะสามารถทดลองกับ Node 1,2,3 ก็ได้
 
 ```bash
 cfg.members[3].votes = 0
@@ -99,6 +115,13 @@ cfg.members[3].priority = 0
 
 ```bash
 rs.reconfig(cfg)
+```
+
+เช็คสถานะของ Replica Set สังเกตค่าที่เปลี่ยนแปลงไปใน Set
+
+```bash
+rs.isMaster()
+rs.status()
 ```
 
 **การแก้ไข topology ของ Replica Set จะทำให้เกิดการ election ขึ้นใหม่**
