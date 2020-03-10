@@ -1,26 +1,26 @@
 # รัน MongoDB ด้วย Shell
 
-### สำหรับ MacOS
+## สำหรับ MacOS
 
 1. เปิดโปรแกรม **Terminal** 
 2. รันคำสั่งด้านล่าง เพื่อสร้าง โฟลเดอร์สำหรับเก็บฐานข้อมูล (ในที่นี่อ้างอิงจาก default location ของระบบ) ใช้ sudo ถ้าจำเป็น
 
 ```bash
-mkdir -p /data/db
+mkdir -p ~/data/db
 
 // ถ้าติด Permission denied ให้ลองใช้ sudo 
-sudo mkdir -p /data/db
+sudo mkdir -p ~/data/db
 ```
 
 3. รันคำสั่งด้านล่าง และกรอกรหัสผ่านของคุณ
 
 ```
-sudo chown -R `id -un` /data/db
+sudo chown -R `id -un` /mongo/db
 ```
 
-4. รันคำสั่ง `mongod` เพื่อรันตัว Database server 
+4. รันคำสั่ง `mongod --dbpath ~/data/db` เพื่อรันตัว Database server 
 
-### สำหรับ Windows
+## สำหรับ Windows
 
 1. สร้างโฟลเดอร์เปล่าขึ้นมาที่ `C:\data\db`
 2. เปิด Command Prompt 
