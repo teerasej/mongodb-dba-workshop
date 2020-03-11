@@ -8,7 +8,7 @@
 ## เชื่อมต่อกับ MongoDB
 
 4. [เตรียมข้อมูล](prepare-data.md) 
-5. ติดตั้ง package 
+5. [ติดตั้ง MongoDB package](setup-db-package.md) 
 สร้าง Connection Module ไว้ใช้
 ใช้งาน Connection Module ใน Route 
 
