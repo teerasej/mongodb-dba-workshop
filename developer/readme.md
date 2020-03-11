@@ -1,14 +1,14 @@
 
-# 
+# Workshop: Product API
 
-1. [สร้างโปรเจค](developer/create-setup-project.md) 
-สร้าง Route 
-ทดสอบ Route 
+1. [สร้างโปรเจค](create-setup-project.md) 
+2. [สร้าง Route](create-route.md) 
+3. [ทดสอบ Route](test-route.md) 
 
 ## เชื่อมต่อกับ MongoDB
 
-ติดตั้ง package 
-โหลดข้อมูล
+4. [เตรียมข้อมูล](prepare-data.md) 
+5. ติดตั้ง package 
 สร้าง Connection Module ไว้ใช้
 ใช้งาน Connection Module ใน Route 
 
