@@ -7,7 +7,7 @@
 - [Download MongoDB](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EeqKc8r0cxJJrcWgFKF_VO0BC9Zr5yvg3gT8BDYo-SKUgw?e=8as9dR)
 - [Download Indexes](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/Eb_b9M49RTpAjcxJ3YpQiSMBAWSBI9GOB4l6DUe1wbP98w?e=BuobDH)
 - [Download Security](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EZRbXBaShZtCn-2iIZ5CLmEBPjA6ClPjiujqRS96alR_Ug?e=s6MRej)
-- [Download Administration](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERzUeVp1rdlOqmERmBrStJQBJZETPLDKdvqvCuPOVBSQDA?e=oMLS40)
+
 
 ## Mongo Atlas
 
