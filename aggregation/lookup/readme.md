@@ -1,4 +1,4 @@
-
+ 
 # Workshop $lookup stage
 
 1. [Single Join](lookup-single-equality-join.md)
