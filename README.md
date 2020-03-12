@@ -52,6 +52,10 @@
 
 - [Aggregation Framework](aggregation/readme.md)
 
+## Workshop with Node.js
+
+- [Node.js](/developer/readme.md)
+
 ## MongoD Command & Config
 
 1. [Setup Vagrant Image Environment](/vagrant-image-setup.md)
@@ -63,16 +67,8 @@
 1. [Security: First Admin account (Localhost exception)](security-localhost-exception.md)
 2. [Security: Authentication method](security-authentication-method.md)
 
-## Replica Set 
-
-1. [Setting up a Replica Set](/replica-set-config-file.md)
-2. [# Reconfiguring a Running Replica Set](/replica-set-reconfig.md)
-
 ### Q&A
 
 - [Connection String แบบต่างๆ](https://docs.mongodb.com/manual/reference/connection-string)
 
-## Sharding
-
-1. [Setting up a shared cluster](shard-config-file.md)
 

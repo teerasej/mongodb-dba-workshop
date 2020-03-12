@@ -23,40 +23,39 @@
 สามารถใช้ Collection ที่โค้ชพลสร้างไว้ แล้ว import เข้ามาใช้งานได้ ดาวน์โหลดจากที่นี่
 
 - **GET** http://localhost:3000/
-- **GET** http://localhost:3000/products
-- **POST** http://localhost:3000/products
+- **GET** http://localhost:3000/people
+- **POST** http://localhost:3000/people
 
 กำหนดค่า
 Body -> Raw (JSON)
 
 ```json
 {
-	"product_name":"Apple Watch",
-	"price":99
+	"first_name": "John",
+	"last_name": "Constantine"
 }
 ```
 
-- **PUT** http://localhost:3000/products
+- **PUT** http://localhost:3000/people
 
 กำหนดค่า
 Body -> Raw (JSON)
 
 ```json
 {
-    "ObjectID": "",
-	"product_name":"Apple Watch Series 4",
-	"price":99
+    "_id": "",
+	"first_name":"Thanos"
 }
 ```
 
-- **DELETE** http://localhost:3000/products
+- **DELETE** http://localhost:3000/people
 
 กำหนดค่า
 Body -> Raw (JSON)
 
 ```json
 {
-    "ObjectID": ""
+    "_id": ""
 }
 ```
 

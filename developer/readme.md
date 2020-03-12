@@ -9,12 +9,16 @@
 
 4. [เตรียมข้อมูล](prepare-data.md) 
 5. [ติดตั้ง MongoDB package](setup-db-package.md) 
-สร้าง Connection Module ไว้ใช้
-ใช้งาน Connection Module ใน Route 
+6. [สร้าง Connection Module ไว้ใช้](create-connection-module.md)
+7. [ใช้งาน Connection Module ใน Route](use-connection-module.md) 
 
-## ขอข้อมูลในการทำ Pagination 
+## CRUD 
 
-
+8. [READ](read.md)
+9. [CREATE](create.md)
+10. [UPDATE](update.md)
+11. [DELETE](delete.md)
+12. [View](use-view.md)
 
 ## Security
 

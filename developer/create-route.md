@@ -9,28 +9,29 @@
 const express = require('express')
 const app = express()
 const port = 3000
+app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
 // read
-app.get('/products', (req,res) => {
+app.get('/people', async (req,res) => {
     res.json({});
 })
 
 // create
-app.post('/products', (req,res) => {
+app.post('/people', async (req,res) => {
     res.json({});
 })
 
 // update
-app.put('/products', (req,res) => {
+app.put('/people', async (req,res) => {
     res.json({});
 })
 
 // delete
-app.delete('/products', (req,res) => {
+app.delete('/people', async (req,res) => {
     res.json({});
 })
 
