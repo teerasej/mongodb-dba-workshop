@@ -19,7 +19,3 @@
 10. [UPDATE](update.md)
 11. [DELETE](delete.md)
 12. [View](use-view.md)
-
-## Security
-
-กำหนด User Role
