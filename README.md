@@ -72,3 +72,10 @@
 
 1. [Setting up a shared cluster](shard-config-file.md)
 
+## Advanced MongoDB for Administrator
+
+1. [Improving Performance](advanced-mongodb-for-administrator/improving-performance.md)
+2. [Advanced Log Monitoring](advanced-mongodb-for-administrator/advanced-log-monitoring.md)
+3. [MongoD Database Administrator Tools](advanced-mongodb-for-administrator/mongod-database-administrator-tools.md)
+4. [Replication in MongoDB](advanced-mongodb-for-administrator/replication-in-mongodb.md)
+5. [Self-Managed Database Security](advanced-mongodb-for-administrator/self-managed-database-security.md)
