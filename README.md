@@ -4,7 +4,7 @@
 
 ## Setup guideline
 
-- [Setup](setup.md)
+- [Setup](content/setup.md)
 
 ## Presentation
 
@@ -15,25 +15,25 @@
 
 ## Mongo Atlas
 
-1. [สมัคร และทดลองสร้าง Cluster บน Mongo Atlas](atlas-create-cluster-free.md)
-2. [ฝึกเชื่อมต่อ Cluster ด้วย Mongo Compass](compass-connect-example-cluster.md)
+1. [สมัคร และทดลองสร้าง Cluster บน Mongo Atlas](content/atlas-create-cluster-free.md)
+2. [ฝึกเชื่อมต่อ Cluster ด้วย Mongo Compass](content/compass-connect-example-cluster.md)
 
 ## MongoDB Shell
 
-1. [ฝึกเชื่อมต่อ Cluster บน Atlas ด้วย Mongo Shell และใช้คำสั่งพื้นฐาน](mongo-shell-connect-example-cluster)
-2. [รัน MongoDB ด้วย Shell](connect-mongodb-with-shell.md) ([คำอธิบายเพิ่มเติม](mongod-command.md))
-3. [ฝึกเชื่อมต่อ Local Cluster ด้วย Mongo Compass](compass-connect-localhost-cluster.md)
+1. [ฝึกเชื่อมต่อ Cluster บน Atlas ด้วย Mongo Shell และใช้คำสั่งพื้นฐาน](content/mongo-shell-connect-example-cluster)
+2. [รัน MongoDB ด้วย Shell](content/connect-mongodb-with-shell.md) ([คำอธิบายเพิ่มเติม](content/mongod-command.md))
+3. [ฝึกเชื่อมต่อ Local Cluster ด้วย Mongo Compass](content/compass-connect-localhost-cluster.md)
 
 ## MongoDB Command
 
-- [เรื่อง Mongo Document](mongod-document.md)
+- [เรื่อง Mongo Document](content/mongod-document.md)
 - [SQL compare to MongoDB](https://docs.mongodb.com/manual/reference/sql-comparison/)
 
-1. [โหลดข้อมูล ด้วยคำสั่ง `mongoimport`](mongo-import.md)
-2. [Insert Operation](mongo-operation-insert.md)
-3. [Read Operation](mongo-operation-read.md)
-4. [Update Operation](mongo-operation-update.md)
-5. [Remove Operation](mongo-operation-remove.md)
+1. [โหลดข้อมูล ด้วยคำสั่ง `mongoimport`](content/mongo-import.md)
+2. [Insert Operation](content/mongo-operation-insert.md)
+3. [Read Operation](content/mongo-operation-read.md)
+4. [Update Operation](content/mongo-operation-update.md)
+5. [Remove Operation](content/mongo-operation-remove.md)
 
 ### Q&A
 
@@ -48,25 +48,25 @@
 
 ## Indexing 
 
-1. [Single Field Indexes](index-single-field.md)
-2. [Index Sorting](index-sorting.md)
-3. [Index Compound](index-compound.md)
+1. [Single Field Indexes](content/index-single-field.md)
+2. [Index Sorting](content/index-sorting.md)
+3. [Index Compound](content/index-compound.md)
 
 ## MongoD Command & Config
 
-1. [Setup Vagrant Image Environment](/vagrant-image-setup.md)
-2. [MongoD Command](mongod-command.md)
-3. [MongoD Configuration Files](/mongod-config-file.md)
+1. [Setup Vagrant Image Environment](content/vagrant-image-setup.md)
+2. [MongoD Command](content/mongod-command.md)
+3. [MongoD Configuration Files](content/mongod-config-file.md)
 
 ## Security & Authentication
 
-1. [Security: First Admin account (Localhost exception)](security-localhost-exception.md)
-2. [Security: Authentication method](security-authentication-method.md)
+1. [Security: First Admin account (Localhost exception)](content/security-localhost-exception.md)
+2. [Security: Authentication method](content/security-authentication-method.md)
 
 ## Replica Set 
 
-1. [Setting up a Replica Set](/replica-set-config-file.md)
-2. [# Reconfiguring a Running Replica Set](/replica-set-reconfig.md)
+1. [Setting up a Replica Set](content/replica-set-config-file.md)
+2. [# Reconfiguring a Running Replica Set](content/replica-set-reconfig.md)
 
 ### Q&A
 
@@ -74,5 +74,5 @@
 
 ## Sharding
 
-1. [Setting up a shared cluster](shard-config-file.md)
+1. [Setting up a shared cluster](content/shard-config-file.md)
 
