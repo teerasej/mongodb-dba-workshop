@@ -18,7 +18,7 @@ mongo admin --eval 'db.shutdownServer()'
 ## คำสั่งสร้าง directory ใหม่ 
 ```bash
 // สร้าง directory
-mkdir first_mongo
+mkdir first_mongod
 
 // ทดสอบรัน daemon ด้วย **port** และ **dbpath** ใหม่ 
 mongod --port 30000 --dbpath first_mongod
