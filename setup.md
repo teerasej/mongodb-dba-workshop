@@ -18,11 +18,12 @@
 
 1. MongoDB Community Edition ([Download](https://www.mongodb.com/try/download/community))
 2. MongoDB Compass ([Download](https://www.mongodb.com/try/download/compass))
-3. Git Client ([Download](http://git-scm.com/download/) | [คลิปแนะนำการติดตั้ง](https://www.youtube.com/watch?v=fPOoIZbDKmE))
-4. Visual Studio Code ([Download](https://code.visualstudio.com/))
+3. MongoDB Command Line Database Tools [Download](https://www.mongodb.com/try/download/database-tools)
+4. Git Client ([Download](http://git-scm.com/download/) | [คลิปแนะนำการติดตั้ง](https://www.youtube.com/watch?v=fPOoIZbDKmE))
+5. Visual Studio Code ([Download](https://code.visualstudio.com/))
    - เสร็จแล้วติดตั้งส่วนเสริม 
      1. [MongoDB Extension](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
-5. Web Browser สามารถเลือกระหว่าง 2 อย่างนี้ 
+6. Web Browser สามารถเลือกระหว่าง 2 อย่างนี้ 
    1. Google Chrome ([Download](https://www.google.com/chrome/))
    2. Microsoft Edge ([Download](https://www.microsoft.com/en-us/edge/download))
 
