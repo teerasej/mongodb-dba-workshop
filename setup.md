@@ -16,7 +16,11 @@
 
 ทำการดาวน์โหลดตัวติดตั้ง และดำเนินการติดตั้งให้เรียบร้อย
 
-1. MongoDB Community Edition ([Download](https://www.mongodb.com/try/download/community))
+สำหรับคนที่ใช้ Mac สามารถติดตั้งผ่าน Homebrew ได้นะครับ 
+
+1. MongoDB Community Edition 
+   1. สำหรับ Windows ([Download](https://www.mongodb.com/try/download/community))
+   2. สำหรับ MacOS สามารถ[ติดตั้งผ่าน Homebrew ได้](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/) 
 2. MongoDB Shell ([Download](https://www.mongodb.com/try/download/shell))
 3. MongoDB Compass ([Download](https://www.mongodb.com/try/download/compass))
 4. MongoDB Command Line Database Tools [Download](https://www.mongodb.com/try/download/database-tools)
