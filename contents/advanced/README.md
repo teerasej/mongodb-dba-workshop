@@ -18,26 +18,3 @@
 ## 2 Advanced Log Monitoring
 
 1. [Access log on self-managed MongoDB](log-monitoring/access-log.md)
-• Understanding MongoDB Deployment Logs
-• Accessing Logs in MongoDB
-• Interpreting Log Events
-• Configuring Log Verbosity
-• Log Management in Atlas and Self-Managed Deployments
-• Strategies for Log Rotation and Retention
-
-## 3 MongoDB Database Administrator Tools
-• Command-Line Tools for MongoDB Administration
-• Backup and Restore Operations
-• Data Import and Export Techniques
-• Diagnostics and Monitoring Tools
-• Working with GridFS
-## 4 Replication in MongoDB
-• Fundamentals of MongoDB Replication
-• Ensuring Data Durability Through Replication
-• Data Recovery Strategies
-• Optimizing Maintenance Cycles with Replication
-## 5 Self-Managed Database Security
-• MongoDB's Security Features Overview
-• Authentication Mechanisms
-• Authorization and Access Control
-• Encryption at Rest and In-Transit
