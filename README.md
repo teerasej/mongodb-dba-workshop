@@ -76,3 +76,6 @@
 
 1. [Setting up a shared cluster](contents/shard-config-file.md)
 
+## Exercise
+
+- [Exercise in Advanced Topics for Database Administrator](contents/advanced/README.md)
