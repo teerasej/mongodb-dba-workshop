@@ -3,7 +3,7 @@
 
 ## 0 Preparation
 
-1. [สมัครและสร้าง Cluster บน Mongo Atlas](/setup.md)
+1. [สมัครและสร้าง Cluster บน Mongo Atlas](contents/advanced/setup.md)
 
 ## 1 Improving Performance
 
