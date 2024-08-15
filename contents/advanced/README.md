@@ -14,6 +14,7 @@
 5. [Compound Indexes with Sort](performance/index-compound-sort.md)
 6. [Compound Indexes with ESR](performance/index-compound-esr.md)
 
+- [Challenging](performance/challenging.md)
 
 ## 2 Advanced Log Monitoring
 
