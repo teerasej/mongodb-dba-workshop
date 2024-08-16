@@ -30,7 +30,7 @@ sudo mkdir -p ~/data/db
 3. รันคำสั่งด้านล่าง และกรอกรหัสผ่านของคุณ
 
 ```bash
-sudo chown -R `id -un` /data/db
+sudo chown -R `id -un` ~/data/db
 ```
 
 4. รันคำสั่งด้านล่าง เพื่อรันตัว Database server 
