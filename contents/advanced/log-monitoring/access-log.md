@@ -9,7 +9,7 @@ C:\Program Files\MongoDB\Server\<version>\log
 
 ## การใช้งาน mongo shell 
 
-> ให้แน่ใจว่าได้สร้าง directory C:/data/db ไว้เพื่อเก็บข้อมูลของ MongoDB ก่อน
+> [Windows & MacOS](https://github.com/teerasej/mongodb-dba-workshop/blob/master/contents/connect-mongodb-with-shell.md) 
 
 1. เปิด Command Prompt และเข้าไปที่โฟลเดอร์ที่ติดตั้ง MongoDB เช่น ใช้คำสั่ง 
 
