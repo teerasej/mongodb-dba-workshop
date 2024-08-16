@@ -5,7 +5,7 @@
 
 1. [สมัครและสร้าง Cluster บน Mongo Atlas](setup/README.md)
 
-## 1 Improving Performance
+## 1. Improving Performance
 
 1. [Single Field Indexes](performance/index-single-field.md)
 2. [Sub-document Indexes](performance/index-single-field-sub-document.md)
@@ -19,6 +19,24 @@
 
 - [Challenging](performance/challenging.md)
 
-## 2 Advanced Log Monitoring
+## 2. Advanced Log Monitoring
 
 1. [Access log on self-managed MongoDB](log-monitoring/access-log.md)
+2. [Monitoring slow queries](log-monitoring/slow-queries.md)
+3. [Verbosity level](log-monitoring/verbosity.md)
+4. [Log rotation](log-monitoring/log-rotation.md)
+
+## 3. MongoDB Database Tools
+
+1. [mongodump](tools/mongodump.md)
+2. [mongorestore](tools/mongorestore.md)
+3. [mongostat](tools/mongostat.md)
+4. [mongotop](tools/mongotop.md)
+5. [bsondump](tools/bsondump.md)
+6. [GridFS](tools/gridfs.md)
+
+## 5. Selt-Managed Security MongoDB
+
+1. [Network Security](security/network.md)
+2. [Authentication](security/authentication.md)
+3. [Authorization](security/authorization.md)

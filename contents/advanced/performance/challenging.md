@@ -1,6 +1,7 @@
 
 # Challenging MongoDB Performance Scenarios and Cases
 
+You can use [chatGPT](https://chatgpt.com/) for working with this!
 
 ### Scenario 1: **Role: Database Administrator for a Streaming Service**
 
@@ -11,7 +12,6 @@
 
 2.  List all movies released between 2010 and 2020, sorted by the number of comments.
    
-
 3. Find all movies where the comments include specific keywords, and the movie’s rating is above 8.
    
 

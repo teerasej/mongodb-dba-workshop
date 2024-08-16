@@ -17,10 +17,10 @@ db.updateUser('peter', { roles: [{ role: 'read', db: 'admin' }]} )
 ## Create Role
 
 ```bash
-db.createRole( {role: 'internRole', privileges: [ {...} ], roles: [{ role: 'read', db:'nfmongop'}]})
+db.createRole( {role: 'internRole', privileges: [ {...} ], roles: [{ role: 'read', db:'sample_mflix'}]})
 ```
 
--  Privilege เช่น `{ resource: { db: 'nfmongop', collection:'peoples'}, actions: ["update"] }`
+-  Privilege เช่น `{ resource: { db: 'sample_mflix', collection:'movies'}, actions: ["update"] }`
 
 ## Grant privilege to role
 

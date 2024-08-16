@@ -1,6 +1,21 @@
 # รัน MongoDB ด้วย Shell
 
-## สำหรับ MacOS
+## สำหรับ MacOS แบบใช้ Homebrew
+
+เริ่มการทำงาน process
+
+```bash
+brew services start mongodb-community@7.0
+```
+
+หยุดการทำงานของ process
+
+```bash
+brew services stop mongodb-community@7.0
+```
+
+
+## สำหรับ MacOS แบบกำหนดเอง
 
 1. เปิดโปรแกรม **Terminal** 
 2. รันคำสั่งด้านล่าง เพื่อสร้าง โฟลเดอร์สำหรับเก็บฐานข้อมูล (ในที่นี่อ้างอิงจาก default location ของระบบ) ใช้ sudo ถ้าจำเป็น
@@ -14,11 +29,15 @@ sudo mkdir -p ~/data/db
 
 3. รันคำสั่งด้านล่าง และกรอกรหัสผ่านของคุณ
 
-```
-sudo chown -R `id -un` /mongo/db
+```bash
+sudo chown -R `id -un` /data/db
 ```
 
-4. รันคำสั่ง `mongod --dbpath ~/data/db` เพื่อรันตัว Database server 
+4. รันคำสั่งด้านล่าง เพื่อรันตัว Database server 
+
+```bash
+mongod --dbpath ~/data/db
+```
 
 ## สำหรับ Windows
 
@@ -26,15 +45,15 @@ sudo chown -R `id -un` /mongo/db
 2. เปิด Command Prompt 
 3. รันคำสั่ง
 
-```
+```bash
 mongod --dbpath "C:\data\db"
 ```
 ** ขั้นตอนนี้ต้อง set path ในส่วนของ System Environment ให้เรียบร้อย [ดูวิธีการได้ที่](https://nextflow.in.th/2018/prepare-mongodb-for-database-administrator-dba/)
 
 ** ถ้าไม่ได้ตั้งค่า path จะรันคำสั่งด้านบนไม่ได้ ให้ไปรันจากโฟลเดอร์ที่ติดตั้ง MongoDB เช่น 
 
-```
-C:\Program Files\MongoDB\Server\4.0\bin
+```bash
+C:\Program Files\MongoDB\Server\7.0\bin
 ```
 
 ### Daemon เริ่มทำงาน
