@@ -1,21 +1,8 @@
 # รัน MongoDB ด้วย Shell
 
-## สำหรับ MacOS แบบใช้ Homebrew
+## สำหรับ MacOS
 
-เริ่มการทำงาน process
-
-```bash
-brew services start mongodb-community@7.0
-```
-
-หยุดการทำงานของ process
-
-```bash
-brew services stop mongodb-community@7.0
-```
-
-
-## สำหรับ MacOS แบบกำหนดเอง
+### 1. สร้าง default dbpath ในเครื่องก่อน
 
 1. เปิดโปรแกรม **Terminal** 
 2. รันคำสั่งด้านล่าง เพื่อสร้าง โฟลเดอร์สำหรับเก็บฐานข้อมูล (ในที่นี่อ้างอิงจาก default location ของระบบ) ใช้ sudo ถ้าจำเป็น
@@ -33,7 +20,32 @@ sudo mkdir -p ~/data/db
 sudo chown -R `id -un` ~/data/db
 ```
 
-4. รันคำสั่งด้านล่าง เพื่อรันตัว Database server 
+### 2. รัน mongoDB instance
+
+#### A. สำหรับ MacOS แบบใช้ Homebrew
+
+เริ่มการทำงาน process
+
+```bash
+brew services start mongodb-community@7.0
+```
+
+หยุดการทำงานของ process
+
+```bash
+brew services stop mongodb-community@7.0
+```
+
+#### B. แบบรัน command ที่ได้จาก zip ไฟล์
+
+ให้เปิด terminal ที่ directory ที่มีไฟล์ **mongod** 
+จากนั้นที่รันคำสั่งด้านล่าง เพื่อรันตัว Database server 
+
+```bash
+mongod
+```
+
+หรือแบบระบุที่อยู่ของ dbpath directory 
 
 ```bash
 mongod --dbpath ~/data/db
