@@ -66,6 +66,6 @@ mongotop "mongodb+srv://teerasej@cluster0.hkdm2.mongodb.net/"
     - `--rowcount` คือ จำนวน row ที่จะแสดงข้อมูล
 
 ```
-mongostat --rowcount=3 "mongodb+srv://teerasej@cluster0.hkdm2.mongodb.net/" 2
+mongotop --rowcount=3 "mongodb+srv://teerasej@cluster0.hkdm2.mongodb.net/" 2
 ```
 
