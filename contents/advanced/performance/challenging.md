@@ -12,7 +12,8 @@ You can use [chatGPT](https://chatgpt.com/) for working with this!
 
 2.  List all movies released between 2010 and 2020, sorted by the number of comments.
    
-3. Find all movies where the comments include specific keywords, and the movie’s rating is above 8.
+
+3. Find all movies where the comments include specific keywords, and the movie’s rating is above 'G'.
    
 
 #### MongoDB Queries (Index Creation):
