@@ -18,11 +18,11 @@
 
 ในที่นี้ถ้าเราใช้ homebrew ในการติดตั้ง log จะอยู่แตกต่างกัน[ตามระบบ mac ที่ใช้](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/) 
 
- Intel chip: 
+Intel chip: 
 ```
 /usr/local/etc/mongod.conf
 ```
- Apple chip (M)
+Apple chip (M)
 ```
 /opt/homebrew/etc/mongod.conf
 ```
