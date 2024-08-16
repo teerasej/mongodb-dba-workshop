@@ -27,7 +27,7 @@ Apple chip (M)
 
 ```bash
 security:
- authorization: enabled
+    authorization: enabled
 ```
 
 ส่วนนี้สามารถทำได้โดย[ใช้คำสั่งผ่านการรัน mongod ได้เช่นเดียวกัน](../../security-localhost-exception.md)
@@ -72,7 +72,7 @@ db.createUser(
 ```
 
 5. กรอกตั้งรหัสผ่านของ `globalUserAdmin` เมื่อมีการถาม 
-6. เสร็จแล้วออกจาก mongo shell ด้วยการใช้คำสั่ง quit() หรือ ctrl + D
+6. เสร็จแล้วออกจาก mongo shell ด้วยการใช้คำสั่ง quit() หรือ ctrl + C
 
 ```bash
 quit()
@@ -105,7 +105,7 @@ mongosh -u globalUserAdmin -p --authenticationDatabase admin localhost:27017
 ```
 
 2. ถ้าเราสามารถเข้าใช้งานได้ แสดงว่าการตั้งค่าการเข้าใช้งานด้วย username และ password สำเร็จ
-3. ลองเข้าดูข้อมูล
+3. ลองเข้าดูข้อมูลจะสามารถดูได้ตามสิทธิ์ของเรา
 
 ```bash
 use sample_mflix

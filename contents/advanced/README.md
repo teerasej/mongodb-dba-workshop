@@ -40,3 +40,4 @@
 1. [Network Security](security/network.md)
 2. [Authentication](security/authentication.md)
 3. [Authorization](security/authorization.md)
+4. [Auditing](security/auditing.md)
